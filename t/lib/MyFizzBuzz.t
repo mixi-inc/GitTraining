@@ -14,6 +14,7 @@ subtest 'getWordAtIndex' => sub {
     is(MyFizzBuzz->getWordAtIndex(2), '2',    'should return 2 for 2');
     is(MyFizzBuzz->getWordAtIndex(3), 'fizz', 'should return fizz for 3');
     is(MyFizzBuzz->getWordAtIndex(4), '4',    'should return 4 for 4');
+    is(MyFizzBuzz->getWordAtIndex(5), 'buzz', 'should return buzz for 5');
 };
 
 done_testing;
