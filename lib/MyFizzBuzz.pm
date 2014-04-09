@@ -4,6 +4,7 @@ use warnings;
 
 sub getWordAtIndex {
     my ($class, $index) = @_;
+    warn "DEBUG: index: $index";
     if ($index == 1) {
         return 1;
     }
