@@ -2,6 +2,8 @@ package MyFizzBuzz;
 use strict;
 use warnings;
 
-sub getWordIndex {
+sub getWordAtIndex {
 
 }
+
+1;
